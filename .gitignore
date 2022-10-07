@@ -1,0 +1,17 @@
+.vscode/
+upload.sh
+results/
+results-local/
+results*
+checkpoints/
+__pycache__
+*.so
+prompt_embeds
+debug
+*.pkl
+results_test/
+self_sup_data/
+data
+pseudo_data_tmp/
+plain_text/
+checkpoints
