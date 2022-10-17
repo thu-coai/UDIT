@@ -1,6 +1,6 @@
 # Learning Instructions with Unlabeled Data for Zero-Shot Cross-Task Generalization
 
-## Environment
+Code and datasets for our paper "PPT: Pre-trained Prompt Tuning for Few-shot Learning"
 
 ## 1 Environment
 
@@ -50,6 +50,7 @@ mkdir -p checkpoints/t5-large-lm/t5-MP1
 python3 tools/transform.py \
 --hf_path ${PATH_TO_PYTORCH_MODLE_BIN}
 --save_path "./checkpoints/t5-large-lm/t5-MP1"
+--half
 ```
 
 **Note that our base model is the [T5.1.1-lm100k](https://huggingface.co/liangtaiwan/t5-v1_1-lm100k-large)**
@@ -86,4 +87,15 @@ bash scripts/udit_full_labeled.sh
 ### Zero-shot Cross-Task Evaluation
 ```bash
 bash scripts/zs_fp16.sh ${PATH_TO_CHECKPOINT}
+```
+
+## 5 Citation
+Please kindly cite our paper if you find this paper and the codes useful!
+```
+@inproceedings{udit,
+    title = "Learning Instructions with Unlabeled Data for Zero-Shot Cross-Task Generalization",
+    author = "Gu, Yuxian and Ke, Pei and Zhu, Xiaoyan and Huang, Minlie",
+    booktitle = "Proceedings of EMNLP",
+    year = "2022",
+}
 ```
