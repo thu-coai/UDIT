@@ -1,6 +1,6 @@
 # Learning Instructions with Unlabeled Data for Zero-Shot Cross-Task Generalization
 
-Code and datasets for our paper "PPT: Pre-trained Prompt Tuning for Few-shot Learning"
+Code and datasets for our paper "Learning Instructions with Unlabeled Data for Zero-Shot Cross-Task Generalization"
 
 ## 1 Environment
 
