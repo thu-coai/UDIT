@@ -38,6 +38,9 @@ We also download the unlabeled plain texts from the [HuggingFace Dataset](https:
 
 ```bash
 bash tools/pseudo_data/mcqa/get_data.sh
+
+### 2.3 Evaluation Data
+Our evaluation data can be download from this [link](https://huggingface.co/datasets/t1101675/UDIT_data).
 ```
 
 ## 3 Base Models
@@ -54,6 +57,8 @@ python3 tools/transform.py \
 ```
 
 **Note that our base model is the [T5.1.1-lm100k](https://huggingface.co/liangtaiwan/t5-v1_1-lm100k-large)**
+
+The pre-trained checkpoints can be download from this [link](https://huggingface.co/t1101675/UDIT/tree/main).
 
 
 ## 4 Run the Code
