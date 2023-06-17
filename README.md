@@ -38,10 +38,10 @@ We also download the unlabeled plain texts from the [HuggingFace Dataset](https:
 
 ```bash
 bash tools/pseudo_data/mcqa/get_data.sh
+```
 
 ### 2.3 Evaluation Data
 Our evaluation data can be download from this [link](https://huggingface.co/datasets/t1101675/UDIT_data).
-```
 
 ## 3 Base Models
 
